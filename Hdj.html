@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Nn.css">
+  <title>Endministrator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <img src="Kon.jpg" alt="Descriptive Alt Text" class="image">
+            <form class="d-flex" role="search" onsubmit="return handleSearch(event)">
+                <input id="searchInput" class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                <button class="btn btn-custom" type="submit">></button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function handleSearch(event) {
+            event.preventDefault(); // Mencegah form mengirim secara default
+            const searchQuery = document.getElementById('searchInput').value.trim().toLowerCase(); // Mendapatkan input pencarian         
+            // Contoh logika pencarian
+            const searchMap = {
+                'test': 'Test.html',
+                'profile': 'Profile.html',
+                'nama': 'Nama.html',
+                'tugas': 'Wisata/index.html'
+            };
+            // Cek apakah query cocok dengan salah satu key di searchMap
+            if (searchMap[searchQuery]) {
+                window.location.href = searchMap[searchQuery]; // Arahkan ke file yang sesuai
+            } else {
+                alert('File tidak ditemukan.'); // Notifikasi jika tidak ditemukan
+            }
+            return false; // Menghindari reload halaman
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
