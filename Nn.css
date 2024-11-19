@@ -98,11 +98,11 @@ section {
 }
 
 .kelas{
-  width: 15vw;
+  width: 55vw;
   height: 200px;
-  margin: -150px 250px;
+  margin: -186px 240px;
   background-color: black;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 section[class="bio"]{
