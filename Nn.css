@@ -1,0 +1,148 @@
+body{
+  background-color: white !important;
+  font-family: default;
+  background-repeat: no-repeat;
+  background-size: 250%;
+}
+h1{
+  font-size: 4em;
+  font-weight: 1000;
+  color: black;
+}
+
+img[class="image"]{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+input[type=submit]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: ghostwhite;
+  border: none;
+  border-right: 5px;
+}
+
+input[name=asal_sekolah]{
+  height: 5%
+}
+
+input{
+  border: none;
+  border-radius: 1px;
+}
+
+textarea{
+  height: 5%;
+  width: 55%
+}
+
+label{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  text-align: center;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-container img {
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: black !important; 
+    color: white !important;
+    border: none !important; 
+}
+
+.btn-custom:hover {
+    background-color: black !important;
+}
+
+a[class="btn btn-primary"]{
+  margin: 16px 16px;
+  background-color: black;
+  border: none;
+}
+
+section {
+  width: 88vw;
+  color: white;
+  background-color: #6844bd;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.h1{
+  width: 5vw;
+  height: 5vh;
+  margin: 10px 8px;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: black;
+}
+
+.kelas{
+  width: 15vw;
+  height: 200px;
+  margin: -150px 250px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+section[class="bio"]{
+  margin: 8px 8px;
+  height: 30vh;
+}
+
+section[class="nama"]{
+  width: 85vw;
+  height: 9vh;
+  margin: 0 15px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+h1{
+  margin: 8px 8px;
+}
+
+h2{
+  margin: 22px;
+}
+
+.p {
+  color: white;
+}
+
+.q {
+  margin: 10px 10px;
+}
+.w {
+  color: black;
+}
+
+.box1{
+  width: 63vw;
+  height: 180px;
+  color: white;
+  background-color: #6844bd;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 8px 8px;
+}
